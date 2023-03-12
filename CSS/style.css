@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:ital,wght@1,200&family=Roboto+Condensed:wght@300&display=swap');
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.sidebar{
+  	background-color: #039AA7;
+  	color:white;
+  	width: 200px;
+  	font-family: 'Roboto Condensed', sans-serif;
+  	height: 100vh;
+
+}
+.sidebar nav{
+	padding: 40px;
+}
+.sidebar nav li{
+	list-style: none;
+	font-size: 25px;
+	padding: 20px 0;
+}
+.sidebar nav li a{
+	text-decoration: none;
+	color: white;
+}
+
+
+.main{
+/*	background-color: yellow;*/
+	width: 85vw;
+}
+.container{
+	display: flex;
+}
+
+.infoDiv{
+	display: flex;
+	justify-content: space-around;
+/*	background-color: green;*/
+	height: 60vh;
+	width: 80vw;
+	margin: 140px auto;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.MyInfo{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.hello{
+	font-size: 60px;
+	color: #299faf
+}
+.MyName{
+	font-size: 55px;
+	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.about{
+	font-size: 40px;
+}
+
+.buttons{
+	margin-top: 30px;
+}
+
+.buttons button{
+    padding: 5px;
+    background: white;
+    color: #039AA7;
+    border-radius: 15px;
+    margin: 0px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px #cad3da;
+}
+.buttons button:hover{
+	background: #039AA7;
+	color: white;
+} 
+
+
+
+
+.myPic{
+	height: 80vh;
+}
+.myPic img{
+    height: 60vh;
+}
+
+.description{
+	font-size: 19px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 5px;
+
+}
