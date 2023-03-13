@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="CSS/style.css">
+         <link rel="stylesheet" href="CSS/contactStyle.css">
     </head>
     <body>
         <div class="container">
@@ -23,18 +24,24 @@
                </nav>
             </div>
             <div class="main">
-                <div class="infoDiv">
-                    <div class="MyInfo">
-                        <div class="hello">Hi I am</div>
-                        <div class="MyName">Tauseef Ahmad</div>
-                        <div class="about">Developer</div>
-                        <div class="description">As a junior developer, my portfolio highlights my passion for learning and my commitment to developing my skills in software development. I showcase my projects that demonstrate my ability to work collaboratively, solve problems, and build innovative solutions.</div>
-                        <div class="buttons">
-                            <button>Download CV</button>
-                            <button>Contact Me</button>
-                        </div>
-                    </div>
-                    <div class="myPic"><img src="images/tausef.png" alt="Tauseef"></div>
+                <div class="contactform">
+                    <h1>Contact Me</h1>
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <!-- <div id="emailHelp" class="form-text">We'll never share your email and Phone with anyone else.</div> -->
+                      </div>
+                      <div class="mb-3">
+                        <label for="clientphone" class="form-label">Phone</label>
+                        <input type="phone" class="form-control" id="clientphone">
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
             </div>
             <script src="" async defer></script>

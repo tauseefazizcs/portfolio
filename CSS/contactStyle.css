@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:ital,wght@1,200&family=Roboto+Condensed:wght@300&family=Titillium+Web:wght@300&display=swap');
+
+.contactform h1{
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+}
+.contactform{
+	font-family: 'Titillium Web', sans-serif;
+	padding:0 20px;
+	padding-top: 120px;
+}
+.contactform form div{
+	display: flex;
+	flex-direction: column;
+	padding:15px 0;
+
+}
+.contactform form div input{
+	width: 15vw;
+	padding: 2px;
+	border-radius: 3px;
+/*	margin: 0 5px;*/
+
+} 
