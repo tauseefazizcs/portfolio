@@ -135,10 +135,15 @@ h1, h2{
 .skill{
 	align-items: baseline;
     display: flex;
+    margin: 10px;
 }
 .skill .colorGry{
 	background-color: #c5c5ce;
     width: 35vw;
+}
+
+.mySkills{
+	margin-left: 15px;
 }
 
 /*********************skills precentages*********************/
