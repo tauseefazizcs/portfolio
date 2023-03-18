@@ -205,6 +205,9 @@ h1, h2{
     height: 60vh;
     width: 376px;
 }
+.MyName{
+	font-size: 47px;
+}
 
 .main .contactform{
 	padding: 6px;
