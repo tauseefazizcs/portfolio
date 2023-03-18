@@ -136,6 +136,7 @@ h1, h2{
 	align-items: baseline;
     display: flex;
     margin: 10px;
+    font-weight: bold;
 }
 .skill .colorGry{
 	background-color: #c5c5ce;
