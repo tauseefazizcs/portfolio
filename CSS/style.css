@@ -12,7 +12,7 @@
   	width: 200px;
   	font-family: 'Roboto Condensed', sans-serif;
   	height: 100vh;
-  	position: fixed;
+/*  	position: fixed;*/
 
 }
 .sidebar nav{
@@ -178,6 +178,7 @@ h1, h2{
   .sidebar{
 	width: 100vw;
 	height: 8vh;
+	position: fixed;
   }
   .sidebar nav li {
     list-style: none;
@@ -212,5 +213,6 @@ h1, h2{
 
 .main .contactform{
 	padding: 6px;
+	margin-top: 70px;
 }
 
