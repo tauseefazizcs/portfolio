@@ -42,7 +42,7 @@
 /*	background-color: green;*/
 	height: 60vh;
 	width: 80vw;
-	margin: 140px auto;
+	margin: 115px auto;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 .MyInfo{
@@ -101,3 +101,16 @@
 	margin: 5px;
 
 } 
+
+
+
+
+.footer{
+	text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: -18px;
+}
+.footer a{
+	text-decoration: none;
+}
