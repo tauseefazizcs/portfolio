@@ -114,3 +114,43 @@
 .footer a{
 	text-decoration: none;
 }
+
+
+
+/**************************my intro page*************************/
+p{
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 15px;
+}
+h1, h2{
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 15px;
+}
+.color{
+/*	width: 30vw;*/
+    height: 3px;
+    background-color: red;
+}
+.skill{
+	align-items: baseline;
+    display: flex;
+}
+.skill .colorGry{
+	background-color: #c5c5ce;
+    width: 35vw;
+}
+
+/*********************skills precentages*********************/
+.skill .sixT{
+	width: 60%;
+}
+.skill .fiveT{
+	width: 50%;
+}
+.skill .thirdT{
+	width: 30%;
+}
+.skill .fourT{
+	width: 40%;
+}
