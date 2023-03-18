@@ -33,6 +33,7 @@
 	width: 85vw;
 }
 .container{
+	width: 100vw;
 	display: flex;
 }
 
@@ -160,3 +161,52 @@ h1, h2{
 .skill .fourT{
 	width: 40%;
 }
+
+
+
+/******************* responsiveness ********************/
+@media (max-width: 992px) {
+  /*body {
+    background-color: blue;
+    color: white;
+  }*/
+  .container{
+  	display: flex;
+  	flex-direction: column;
+  }
+  .sidebar{
+	width: 100vw;
+	height: 8vh;
+  }
+  .sidebar nav li {
+    list-style: none;
+    font-size: 19px;
+    padding: 0 0;
+  }
+  .sidebar nav ul{
+  	display: flex;
+    justify-content: space-between;
+/*    border: 2px solid black*/
+  }
+
+  .main{
+  	width: 100vw;
+  }
+  .sidebar nav{
+ 	padding: 14px;
+  }
+  .infoDiv{
+  	margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.myPic img {
+    height: 60vh;
+    width: 376px;
+}
+
+.main .contactform{
+	padding: 6px;
+}
+
