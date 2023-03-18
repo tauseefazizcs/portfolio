@@ -12,6 +12,7 @@
   	width: 200px;
   	font-family: 'Roboto Condensed', sans-serif;
   	height: 100vh;
+  	position: fixed;
 
 }
 .sidebar nav{
