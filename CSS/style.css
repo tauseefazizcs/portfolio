@@ -193,6 +193,7 @@ h1, h2{
 
   .main{
   	width: 100vw;
+  	margin-top: 70px;
   }
   .sidebar nav{
  	padding: 14px;
@@ -213,6 +214,6 @@ h1, h2{
 
 .main .contactform{
 	padding: 6px;
-	margin-top: 70px;
+/*	margin-top: 70px;*/
 }
 
